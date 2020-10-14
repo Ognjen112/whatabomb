@@ -147,7 +147,7 @@ class Ui_MainWindow(object):
         for i in range(number):
             msg_box.send_keys(mesage.replace("\n", Keys.SHIFT + Keys.ENTER))
             msg_box.send_keys(Keys.ENTER)
-            print("sent {} messages".format(i + 1), end="\r")
+            print("sent {} messages".format(i + 1), end=="\r")
         driver.quit()
         QMessageBox.information(
             self.obj,
